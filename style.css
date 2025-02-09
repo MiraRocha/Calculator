@@ -62,3 +62,49 @@ button:active {
 .operator-btn:active {
     background-color: hsl(35, 100%, 75%);
 }
+
+/* 📱 Para Telemóveis (até 480px) */
+@media (max-width: 480px) {
+    #calculator {
+        max-width: 90%;
+    }
+
+    #display {
+        font-size: 3rem;
+        padding: 15px;
+    }
+
+    #keys {
+        gap: 5px;
+        padding: 15px;
+    }
+
+    button {
+        width: 70px;
+        height: 70px;
+        font-size: 2rem;
+    }
+}
+
+/* 💻 Para Tablets (481px - 768px) */
+@media (max-width: 768px) {
+    #calculator {
+        max-width: 80%;
+    }
+
+    #display {
+        font-size: 4rem;
+        padding: 18px;
+    }
+
+    #keys {
+        gap: 8px;
+        padding: 20px;
+    }
+
+    button {
+        width: 85px;
+        height: 85px;
+        font-size: 2.5rem;
+    }
+}
